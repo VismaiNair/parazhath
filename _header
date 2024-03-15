@@ -1,0 +1,7 @@
+# This is a comment
+/static/*
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: nosnippet
+
+https://parazhath.pages.dev/*
+  X-Robots-Tag: index
