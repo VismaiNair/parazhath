@@ -20,7 +20,6 @@ nav > a {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border: none;
     text-decoration: none;
-    
 }
 
 nav > a:hover {
@@ -31,9 +30,14 @@ nav > a:hover {
 a[lang = "ml"], a[lang = "en"] {
     background-color: #ffe4c5;
 }
+
 a[lang = "ml"]:hover, a[lang = "en"]:hover {
     background-color: #dfc7ab;
     transition-duration: 1s;
+}
+
+a, button {
+    cursor: pointer;
 }
 
 
