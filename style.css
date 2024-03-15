@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-html {
-    flex: 1;
-}
 
 html[lang = "ml"] {
     font-family: "Noto Sans Malayalam", sans-serif;
@@ -12,14 +9,21 @@ html[lang = "en"] {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
+nav {
+    display: flex;
+    flex-direction: row;
+}
 nav > a {
-    margin: 1rem 1rem 1rem 1rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0px;
     border: none;
     text-decoration: none;
+    color: #5c4932;
+    flex-grow: 1;
 }
 
 nav > a:hover {
@@ -40,4 +44,7 @@ a, button {
     cursor: pointer;
 }
 
+a:visited {
+    color: 
+}
 
