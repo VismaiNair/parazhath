@@ -1,17 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 html {
     flex: 1;
-    font-family: 
 }
+
 html[lang = "ml"] {
     font-family: "Noto Sans Malayalam", sans-serif;
 }
+
 html[lang = "en"] {
     font-family: "Raleway", sans-serif;
 }
+
 header {
     align-items: center;
 }
 
+nav > a {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
+    text-decoration: none;
+    
+}
+
+nav > a:hover {
+    background-color: #e0e0e0;
+    transition-duration: 1s;
+}
+
+a[lang = "ml"], a[lang = "en"] {
+    background-color: #ffe4c5;
+}
+a[lang = "ml"]:hover, a[lang = "en"]:hover {
+    background-color: #dfc7ab;
+    transition-duration: 1s;
+}
 
 
